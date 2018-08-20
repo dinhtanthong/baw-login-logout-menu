@@ -2,6 +2,7 @@
 if( !defined( 'ABSPATH' ) )
 	die( 'Cheatin\' uh?' );
 
+
 /* Used to return the correct title for the double login/logout menu item */
 function bawllm_loginout_title( $title ) {
 	$titles = explode( '|', $title );
